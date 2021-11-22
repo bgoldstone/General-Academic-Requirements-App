@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Hackathonpc1",
-    "slug": "Hackathonpc1",
+    "name": "GAR Counter",
+    "slug": "GAR Counter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
