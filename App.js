@@ -107,73 +107,97 @@ export default function App() {
 
 function calc(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12){
   
-  if (Number(text1) > 1){
+  if(Number(text1) < 0){
+  text1=0
+  } else if (Number(text1) > 1){
     text1=1
   } else{
     text1 = Number(text1)
   }
 
-  if (Number(text2) > 2){
+  if(Number(text2) < 0){
+  text2=0
+  } else if (Number(text2) > 2){
     text2=2
   } else{
     text2 = Number(text2)
   }
 
-  if (Number(text3) > 2){
+  if(Number(text3) < 0){
+  text3=0
+  } else if (Number(text3) > 2){
     text3=2
   } else{
     text3 = Number(text3)
   }
 
-  if (Number(text4) > 1){
+  if(Number(text4) < 0){
+  text4=0
+  } else if (Number(text4) > 1){
     text4=1
   } else{
     text4 = Number(text4)
   }
 
-  if (Number(text5) > 1){
+  if(Number(text5) < 0){
+  text5=0
+  } else if (Number(text5) > 1){
     text5=1
   } else{
     text5 = Number(text5)
   }
 
-  if (Number(text6) > 3){
+  if(Number(text6) < 0){
+  text6=0
+  } else if (Number(text6) > 3){
     text6=3
   } else{
     text6 = Number(text6)
   }
 
-  if (Number(text7) > 2){
+  if(Number(text7) < 0){
+  text7=0
+  } else if (Number(text7) > 2){
     text7=2
   } else{
     text7 = Number(text7)
   }
 
-  if (Number(text8) > 2){
+  if(Number(text8) < 0){
+  text8=0
+  } else if (Number(text8) > 2){
     text8=2
   } else{
     text8 = Number(text8)
   }
 
-  if (Number(text9) > 1){
+  if(Number(text9) < 0){
+  text9=0
+  } else if (Number(text9) > 1){
     text9=1
   } else{
     text9 = Number(text9)
   }
 
-  if (Number(text10) > 2){
+  if(Number(text10) < 0){
+  text10=0
+  } else if (Number(text10) > 2){
     text10=2
   } else{
     text10 = Number(text10)
   }
 
-  if (Number(text11) > 1){
+  if(Number(text11) < 0){
+  text11=0
+  } else if (Number(text11) > 1){
     text11=1
   } else{
     text11 = Number(text11)
   }
 
-  if (Number(text12) > 1){
+  if(Number(text12) < 0){
+  text12=0
+  } else if (Number(text12) > 1){
     text12=1
   } else{
     text12 = Number(text12)
